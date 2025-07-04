@@ -5,7 +5,7 @@ import time
 import tflite_runtime.interpreter as tflite
 import sqlite3
 from datetime import datetime
-
+    
 picam2 = Picamera2()
 picam2.preview_configuration.main.size = (640, 480)
 picam2.preview_configuration.main.format = "RGB888"
