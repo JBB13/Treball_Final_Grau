@@ -79,5 +79,4 @@ plt.title('Precisió Entrenament vs Validació')
 plt.grid()
 plt.show()
 
-
 model.save("modelo_cnn_clasificacion_kaggle_param_120.h5")
