@@ -80,4 +80,4 @@ plt.grid()
 plt.show()
 
 
-model.save("modelo_cnn_clasificacion_kaggle_param_30.h5")
+model.save("modelo_cnn_clasificacion_kaggle_param_120.h5")
