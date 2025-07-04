@@ -38,7 +38,6 @@ class CNNHyperModel(HyperModel):
         model = keras.Sequential()
         model.add(layers.Input(shape=(128, 128, 3)))
 
-        # Número de bloques Conv2D-MaxPool
         for i in range(hp.Int('num_conv_blocks', 2, 4)):
             model.add(layers.Conv2D(
                 filters=hp.Int(f'filters_{i}', 32, 256, step=32),
